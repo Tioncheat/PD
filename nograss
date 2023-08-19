@@ -1,0 +1,6 @@
+local function ToggleGrass()
+    local terrain = game:GetService("Workspace").Terrain
+    terrain.Decoration = not terrain.Decoration
+end
+
+ToggleGrass()
