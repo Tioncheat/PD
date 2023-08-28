@@ -75,18 +75,18 @@ function CloneTable(T)
 end
 
 local Bullshit = {
-	ESPEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
-	CHAMSEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
-	TracersEnabled = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
+	ESPEnabled = true, -- Self explanatory. LEAVE OFF BY DEFAULT.
+	CHAMSEnabled = true, -- Self explanatory. LEAVE OFF BY DEFAULT.
+	TracersEnabled = true, -- Self explanatory. LEAVE OFF BY DEFAULT.
 	DebugInfo = false, -- Self explanatory. LEAVE OFF BY DEFAULT.
 	OutlinesEnabled = false,
-	FullbrightEnabled = false,
+	FullbrightEnabled = true,
 	CrosshairEnabled = false,
 	AimbotEnabled = false,
 	Aimbot = false,
-	TracersLength = 500, -- MAX DISTANCE IS 2048 DO NOT GO ABOVE OR YOU'LL ENCOUNTER PROBLEMS.
-	ESPLength = 10000,
-	CHAMSLength = 500,
+	TracersLength = 2047, -- MAX DISTANCE IS 2048 DO NOT GO ABOVE OR YOU'LL ENCOUNTER PROBLEMS.
+	ESPLength = 100000,
+	CHAMSLength = 2000,
 	PlaceTracersUnderCharacter = false, -- Change to true if you want tracers to be placed under your character instead of at the bottom of your camera.
 	FreeForAll = false, -- use for games that don't have teams (Apocalypse Rising)
 	AutoFire = false,
